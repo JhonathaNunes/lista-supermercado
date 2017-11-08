@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.com.listamercado.app.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Super Mercado"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/txtProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex.: Arroz, feijão, macarrão"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incluir"
+        android:onClick="InserirItem"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+</LinearLayout>
