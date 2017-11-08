@@ -1,4 +1,4 @@
-package br.com.listamercado.app;
+﻿package br.com.listamercado.app;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;
@@ -21,6 +21,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    String x;
     ListView listView;
     EditText txtProduto;
     ProdutoAdapter adapter;
